@@ -1,0 +1,736 @@
+@import url('https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+.section-1{
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 20px 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 100;
+    box-shadow: 0px 0px 10px ;
+    
+}
+.n-burger{
+    flex: 2;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo{
+    flex: 1;
+}
+.logo a{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: black;
+    font-family: 'Just Another Hand', cursive;
+
+}
+.logo a .logo-icon{
+    font-size: 40px;
+    color: red;
+}
+.logo a span{
+    font-weight: 600;
+    font-size: 30px;
+    font-family:'Just Another Hand', cursive;
+    padding: 0px 2px;
+
+}
+span{
+    color: red;
+}
+.menu a{
+    text-transform: capitalize;
+    margin-right: 10px;
+    font-size: 16px;
+    color: black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: .5s;
+}
+.menu a:nth-child(1){
+    background-color: black;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.menu a:hover{
+    background-color: red;
+    color: #fff;
+}
+.icons{
+    font-size: 20px;
+    margin-right: 7px;
+    transition: .2s;
+    cursor: pointer;
+}
+.icons:hover{
+    transform: scale(1.3);
+}
+.burger,.close{
+    font-size: 40px;
+    display: none;
+}
+
+.main{
+    width: 100%;
+    min-height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 100px;
+}
+.main .main-1{
+    margin-top:15%;
+    width: 50%;
+    margin-right: 30px;
+    text-transform: capitalize;
+    color: #fff;
+    flex: 1;
+}
+.main-1 h3{
+    font-size: 50px;
+}
+.main-1 p{
+    font-size: 17px;
+    margin-top: 5px;
+}
+.main-img{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 50px;
+}
+.main-img img{
+    width: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+.btns{
+    width: 100%;
+    margin-top: 30px;
+}
+.btns button{
+    padding: 10px 20px;
+    border: none;
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+    transition: .4s;
+    cursor: pointer;
+}
+.btns button:nth-child(1){
+    background-color: red;
+    color: #fff;
+}
+.btns button:nth-child(1):hover{
+    background-color: rgb(194, 96, 96);
+}
+/*--------------------------------------------*/
+.section-2{
+    width: 100%;
+    min-height: 70vh;
+    background-color:#fff;
+    text-transform: capitalize;
+    text-align: center;
+}
+.section-2 h1{
+    font-size: 40px;
+    padding-top: 40px;
+    font-weight: 500; 
+}
+.box{
+    width: 80%;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    place-items: center;
+    margin: 50px auto;
+    row-gap: 40px;
+    column-gap: 40px;
+}
+.box-1,.box-2,.box-3{
+    width: 300px;
+    min-height: 300px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding:10px 10px;
+    border-radius: 10px 10px 10px 50px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.2);
+    transition: .4s;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.box img{
+    min-width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+.box-content h3{
+    font-weight: 600;
+    font-size: 20px;
+}
+.box-content p{
+    color: grey;
+    font-size: 15px;
+}
+.box-1:hover{
+    transform: scale(1.1);
+}
+.box-2:hover{
+    transform: scale(1.1);
+}
+.box-3:hover{
+    transform: scale(1.1);
+}
+
+/*------------*/
+
+.section-3{
+    width: 100%;
+    min-height: 50vh;
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    text-transform: capitalize;
+}
+.section-3 h1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 500; 
+    color: #fff;
+}
+.lists{
+    width: 90%;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(400px,1fr));
+    row-gap:50px ;
+    justify-content: center;
+    margin:50px auto;
+    place-items: center;
+}
+.lists p{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 270px;
+}
+.lists p .Sicons{
+    font-size: 30px;
+    padding: 0px 10px;
+    color: black;
+    background-color: #fff;
+    width: 30px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+/*---------------------*/
+
+.section-4{
+    width: 100%;
+    min-height: 90vh;
+    text-transform: capitalize;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 500; 
+    color: black;
+}
+.overall-meals{
+    width:70%;
+    margin: 50px auto;
+}
+.meals-butns{
+    text-align: center;
+}
+.meals-butns button{
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: grey;
+    border: 1px solid grey;
+    border-radius: 10px;
+    margin: 5px;
+    transition: .3s;
+    cursor: pointer;
+}
+.meals-butns button:hover{
+    background-color: red;
+    color: #fff;
+    border: 1px solid red;
+}
+.meals-butns button:nth-child(3){
+    background-color: red;
+    color: #fff;   
+}
+.meals-box{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap: 20px;
+    margin:40px auto;
+}
+.meals-box .Mbox{
+    border-radius: 30px;
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #dedede;
+    transition: .3s;
+    cursor: pointer;
+}
+.meals-box .Mbox:hover{
+    transform: scale(1.05);
+    background-color: grey;
+}
+.Mbox .img{
+    width: 100%;
+    height: 80%;
+}
+.Mbox .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.meal-content{
+    margin-top: 10px;
+}
+.meal-content p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.menu-btn{
+    text-align: center;
+}
+.menu-btn button{
+    padding: 10px 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .3s;
+}
+.menu-btn button:hover{
+    background-color:grey;
+    color: #fff;
+}
+/*--------section-5--------------*/
+.footer{
+    width: 100%;
+    height: 100vh;
+    text-transform: capitalize;
+}
+.foot-container{
+    width: 70%;
+    min-height: 35%;
+    background:linear-gradient(rgb(0,0,0,.5),rgba(0,0,0,.6)),url(/Images/pexels-furkan-tumer-7170952\ \(1\).jpg) ;
+    background-position: center;
+    background-size: cover;
+    margin:auto;
+    border-radius: 20px;
+    padding: 50px;
+    position: relative;
+    top: 130px;
+    border: 2px solid white;
+}
+.foot-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.container form{
+    width: 100%;
+    height: 100%;
+}
+form p{
+    max-width: 500px;
+    color: #fff;
+    font-size: 28px;
+    margin: auto;
+    text-align: center;
+}
+.input-box{
+    width: 50%;
+    min-width: 50%;
+    height: 60px;
+    margin:15px auto;
+    position: relative;
+}
+.input-box .input{
+    min-width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    padding: 0px 130px 0px 10px;
+    font-size: 19px;
+    outline: none;
+    border: none;
+    
+}
+.input-box .submit{
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+    z-index: 10;
+    background-color: red;
+    padding:10px 20px ;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.input-box .submit:hover{
+    background-color:grey;
+    color: black;
+}
+/*-----*/
+.footer-links{
+    width: 100%;
+    min-height:65%;
+    background-color: black;
+    color: #fff;
+    padding-bottom: 50px;
+}
+.footer-overall{
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 180px;
+    column-gap: 50px;
+    row-gap: 50px;  
+}
+.footer-icons{
+    text-align: center;
+    min-height: 200px;
+}
+.footer-icons a{
+    text-transform: uppercase;
+    font-size: 25px;
+    color:#fff;
+    font-family: 'Just Another Hand', cursive;
+}
+.footer-icons a .logo-icon{
+    font-size: 40px;
+    color: red;
+}
+.footer-icons a span{
+    color: red;
+    font-weight: 600;
+    font-size: 20px;
+    font-family:'Just Another Hand', cursive;
+    padding: 0px 3px;
+}
+.address{
+    margin-top: 10px;
+}
+.address p{
+    font-size: 18px;
+    color: rgb(180, 174, 174);
+}
+.social-links{
+    margin: 20px;
+}
+.social-links .i{
+    font-size: 20px;
+    margin-right: 10px;
+    padding: 10px;
+    color: black;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: .3s;
+    cursor: pointer;
+}
+.social-links .i:nth-child(2){
+    background-color: red;
+    color: #fff;
+}
+.social-links .i:hover{
+    background-color: red;
+    color: #fff;
+}
+.social-links .i:nth-child(2):hover{
+    background-color: #fff;
+    color: black;
+}
+.social-links .i:hover{
+    transform: scale(1.2);
+    color: #fff;
+}
+/*---------------*/
+.footer-company{
+    min-height: 200px;
+    padding: 20px;
+    text-align: center;
+}
+.footer-company p{
+    font-size: 20px;
+}
+.footer-company .s-links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.s-links a{
+    color: rgb(180, 174, 174);
+    padding: 10px 0px;
+    font-size: 15px; 
+    transition: .3s;
+}
+.footer-company .s-links a:hover{
+    transform: scale(1.1);
+    color: #fff;
+}
+/*-----*/
+.footer-policy{
+    min-height: 200px;
+    padding:20px;
+    text-align: center;
+}
+.footer-policy p{
+    font-size: 20px;
+}
+.footer-policy .s-links{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    transition: .3s;
+}
+.footer-policy .s-links a:hover{
+    transform: scale(1.1);
+    color: #fff;
+}
+/*-----*/
+.footer-touch{
+    min-height: 200px;
+    text-align: center;
+    padding-bottom: 135px;
+}
+.footer-touch .para{
+    font-size: 20px;
+}
+.footer-touch .s-links{
+    margin-top: 20px;
+}
+.footer-touch .s-links p{
+    font-size: 15px;
+    color: rgb(180, 174, 174);
+}
+.footer-touch .s-links a{
+    text-transform:lowercase;
+}
+.copyrights{
+    border-top: .1px solid #dedede;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 30px;
+    margin-top: 20px;
+}
+.copyrights p{
+    color: #dedede;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 1258px){
+    form .input-box{
+        width: 100%;
+     }
+     form .input-box .input{
+         width: 100%;
+     }
+}
+@media screen and (max-width: 1238px){
+    form ::placeholder{
+        font-size: 15px;
+    }
+    .main .main-1{
+        margin-top:15%;
+        padding-top: 60px;
+    }
+}
+@media screen and (max-width:1187px){
+    nav{
+        padding: 20px 20px;
+    }
+    .main-img img{
+        width: 380px;
+    }
+}
+@media screen and (max-width: 1025px){
+    .logo{
+        position: absolute;
+        top: 20px;
+        left: 0px;
+    }
+    .n-burger{
+        flex-direction: column;
+        margin-top: 110px;
+        height: 40%;
+        width: 100%;
+        position: absolute;
+        right: -100%;
+        transition: .5s;
+    }
+    .n-burger.show{
+        right: 0;   
+    }
+    .menu{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background:linear-gradient(rgba(255,255,255,.98),rgba(255,255,255,.98));
+        width: 100vw;
+        padding-top: 20px;
+    }
+    .menu a{
+        margin-bottom: 25px;
+        font-size: 17px;
+    }
+    .nav-icons{
+        background:linear-gradient(rgba(255,255,255,.98),rgba(255,255,255,.98));
+        width: 100vw;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #bab3b3;
+    }
+    .icons{
+        font-size: 30px;
+        margin: 0px 30px;
+    }
+    .burger{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+    .close{
+        display:none;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+    }
+}
+@media screen and (max-width: 1000px){
+    nav .logo {
+        margin-left: 20px;
+    }
+    .main-1{
+        flex: 3;
+    }
+    .main-img img{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 940px){
+    .main{
+        padding:0px 2%;
+    }
+    .main .main-1{
+        margin-top:30%;
+        width: 50%;
+        padding: 0px 50px;
+    }
+    form .input-box{
+       width: 100%;
+    }
+    form .input-box .input{
+        width: 100%;
+    }
+    form ::placeholder{
+        font-size: 15px;
+    }
+    .input-box .submit{
+        position: absolute;
+        top: 50%;
+        right: 8px;
+        transform: translateY(-50%);  
+    }
+    }
+@media screen and (max-width: 885px){
+    .main{
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+    .main .main-1{
+        padding-top:150px;
+        width: 100%;
+        margin: 0;
+    }
+    .main .main-1 h3{
+        text-align: center;
+        font-size: 40px;
+    }
+    .main .main-1 p{
+        text-align: center;
+        font-size: 18px;
+    }
+    .main .main-1 .btns{
+        text-align: center;
+    }
+   .main-img{
+        width: 50%;
+        margin: auto;
+   }
+   .main-img img{
+        width: 100%;
+   }
+   .footer form .input-box{
+        min-width: 50%; 
+   }
+}
+@media screen and (max-width: 570px){
+    .input-box .submit{
+        top: 120%;
+        right:50%;
+        transform: translateX(50%);
+    }
+    .input-box .input{
+        min-width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        padding: 0px 10px 0px 10px;
+    }
+    ::placeholder{
+        font-size: 20px;
+    }
+}
