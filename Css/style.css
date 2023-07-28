@@ -355,7 +355,7 @@ h1{
 .foot-container{
     width: 70%;
     min-height: 35%;
-    background:linear-gradient(rgb(0,0,0,.5),rgba(0,0,0,.6)),url(/Images/pexels-furkan-tumer-7170952\ \(1\).jpg) ;
+    background:linear-gradient(rgb(0,0,0,.5),rgba(0,0,0,.6)),url(../Images/pexels-furkan-tumer-7170952\ \(1\).jpg) ;
     background-position: center;
     background-size: cover;
     margin:auto;
