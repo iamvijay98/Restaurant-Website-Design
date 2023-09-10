@@ -14,7 +14,7 @@ A static restaurant website is a simple web page that showcases a restaurant's i
 * Beneath the header, there is a visually appealing banner or image section showcasing images of the restaurant's interior, dishes, or ambiance.
 * These images help set the mood and entice visitors to explore the menu.
 
-**About Us Section::**
+**About Us Section:**
 
 * This section provides information about the restaurant's history, chefs, and its commitment to quality and service.
 
