@@ -26,17 +26,17 @@ A static restaurant website is a simple web page that showcases a restaurant's i
 
 * At the bottom of the page, there is a footer section that typically contains links to the restaurant's social media profiles, privacy policy, and terms of service.
 
-# Design and Styling:
+## Design and Styling:
 
 * The website is designed with a clean and visually appealing layout.
 * The color scheme, fonts, and images are chosen to reflect the restaurant's branding and ambiance.
 * CSS is used for styling, including responsive design to ensure the website looks good on various devices and screen sizes.
 
-# Interactivity:
+## Interactivity:
 
 * JavaScript is utilized to add interactivity to the website, primarily for the navigation menu bar.
 
-# Responsiveness:
+## Responsiveness:
 
 * The website is designed to be responsive, adapting to different screen sizes and orientations, making it accessible on both desktop and mobile devices.
 
